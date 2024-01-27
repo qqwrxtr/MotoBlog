@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+        
+        .logo{
+            font-size: 40px;
+            font-weight: 900;
+            font-style: italic;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .content__bg{
+            background-image: url(1.jpg);
+            width: 100%;
+            height: 700px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center calc(-200px);
+            margin-top: -50px;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            margin: 0px 50px;
+            align-items: center;
+            
+        }
+        .links ul li a{
+            color: black;
+            text-decoration: none;
+        }
+        .links ul{
+            list-style: none;
+            display: flex;
+            width: 550px;
+            justify-content: space-around;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .text__info{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            flex-direction: column;
+        }
+        .section__flex{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .txt{
+            width: 800px;
+            font-size: 20px;
+            
+        }
+        .button{
+            margin-top: 30px;
+        }
+        .bg_col{
+            background-color: rgb(146, 154, 153);
+            width: 100%;
+            height: 340px;
+            box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.314);
+        }
+        .img img{
+            width: 300px;
+            height: 300px;
+            object-fit: contain;
+            margin: 0 0 0 50px;
+        }
+        .right{
+            text-align: right;
+        }
+        .stanga img{
+            margin: 0 50px 0 0;
+        }
+        section{
+            margin: 20px 0;
+        }
+        footer{
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(128, 128, 128, 0.443);
+        }
+        .alt_txt{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+
+
+    <header>
+        <div class="logo">
+            <p>MotoBlog</p>
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="#scooter">Scooter</a></li>
+                <li><a href="#chopper">Chopper</a></li>
+                <li><a href="#sport">Sport</a></li>
+                <li><a href="#naked">Naked</a></li>
+                <li><a href="#motard">Motard</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="content__bg">
+    </div>
+    <div class="text__info">
+        <section id="scooter" class="scooter bg_col section__flex">
+            <div class="txt">
+                <div class="title">
+                    <h2>Honda Dio Scooter</h2>
+                </div>
+                <div class="text_content">
+                    <p>Honda Dio este un scuter fabricat de Honda și a fost introdus în 1988.
+                        A fost construit inițial în Japonia, ca model în 2 timpi până în 2001.
+                         Acum este asamblat de Sundiro Honda Motorcycle Co., Ltd. în China.
+                        Este compus din linii în patru timpi: seria AF de 50 cc (3,1 cu inchi) (SK50) 
+                        și seria JF de 110 cc (6,7 cu inchi) (NSC110) sunt acum asamblate în China.
+                    </p>
+                </div>
+                <div class="button">
+                    <a href="">Afla mai multe -></a>
+                </div>
+            </div>
+            <div class="img">
+                <img src="300px-Honda_Dio.jpg" alt="">
+            </div>
+        </section>
+        <section id="chopper" class="chopper bg_col section__flex stanga">
+            <div class="img">
+                <img src="2.jpeg" alt="">
+            </div>
+            <div class="txt right">
+                <div class="title">
+                    <h2>Chopper 2023 Fat Bob 114</h2>
+                </div>
+                <div class="text_content">
+                    <p>
+                        100% american și alegerea musculară în gama Harley Davidson 2022, Fat Bob 114 nu a necesitat modificări 
+                        față de versiunea de anul trecut, dar are o vopsea uimitoare în două tonuri pe rezervor.Motorul Milwaukee-Eight® 114 
+                        eliberează un cuplu de 118 lbs-ft și un zgomot satisfăcător de la evacuarea în sus, cu finisajul său bronz contrastant. 
+                        Montarea furcii față inversate în jurul anvelopei frontale masive de 150 mm lățime a făcut spațiu pentru farul LED distinctiv. 
+                        Opresc această Harley Davidson voluminoasă, frâne masive cu două discuri, care fac tot posibilul pentru a ascunde roțile din 
+                        aluminiu turnat Structure de culoare neagră.
+                    </p>
+                </div>
+                <div class="button">
+                    <a href="">Afla mai multe -></a>
+                </div>
+            </div>
+        </section>
+        <section id="sport" class="sport bg_col section__flex">
+            <div class="txt">
+                <div class="title">
+                    <h2>Yamaha R1 sport</h2>
+                </div>
+                <div class="text_content">
+                    <p>
+                        Yamaha a lansat YZF-R1 în 1998, după ce a reproiectat motorul Genesis pentru a crea un motor mai 
+                        compact prin ridicarea arborelui de intrare al cutiei de viteze și permițând amplasarea arborelui
+                         de ieșire al cutiei de viteze sub acesta. Această „cutie de viteze stivuită” a fost urmată de alți 
+                         producători. Compactarea motorului l-a făcut mult mai scurt, permițând, de asemenea, scurtarea ampatamentului 
+                         și optimizarea centrului de greutate. Brațul oscilant putea fi făcut mai lung, fără a compromite ampatamentul 
+                         total, care era scurt de 1.385 mm (54,5 inchi). Patru carburatoare Keihin CV de 40 mm au alimentat motorul cu combustibil.
+                    </p>
+                </div>
+                <div class="button">
+                    <a href="">Afla mai multe -></a>
+                </div>
+            </div>
+            <div class="img">
+                <img src="3.JPG" alt="">
+            </div>
+        </section>
+        <section id="naked" class="naked bg_col section__flex stanga">
+            <div class="img">
+                <img src="4.jpg" alt="">
+            </div>
+            <div class="txt right">
+                <div class="title">
+                    <h2>KTM 1290 Super Duke R</h2>
+                </div>
+                <div class="text_content">
+                    <p>
+                        KTM 1290 Super Duke R este o bicicletă naked. Suspensia modelelor 2014–2016 a fost considerată 
+                        a fi prea moale, dar actualizarea din 2017 a abordat acest lucru cu arcuri mai rigide.
+                        Modelul din 2016 a avut un raport de compresie de 13,2:1, iar modelul din 2017 a crescut raportul de 
+                        compresie la 13,6:1. Modelul din 2017 vine cu Cruise Control ca standard și are electronice îmbunătățite, 
+                        cum ar fi controlul tracțiunii sensibil la unghiul de înclinare, modul de rulare cu fir și modul de pistă opțional, 
+                        împreună cu ABS pentru viraje, schimbător rapid, moduri de rulare etc.
+                    </p>
+                </div>
+                <div class="button">
+                    <a href="">Afla mai multe -></a>
+                </div>
+            </div>
+        </section>
+        <section id="motard" class="motard bg_col section__flex">
+            <div class="txt">
+                <div class="title">
+                    <h2>2021 Husqvarna 701 Enduro</h2>
+                </div>
+                <div class="text_content">
+                    <p>
+                        701 Enduro este una dintre cele mai formidabile motociclete din gama Husqvarna 2021. 
+                        Este o mașină cu două sporturi care îmbină cele mai bune experiențe Husqvarna pe drum
+                         și off-road și le îmbină într-un singur pachet impresionant. Ca motocicletă cu două sporturi, 
+                         este excelentă pentru naveta zilnică, mersul pe stradă, off-roadul accidentat și multe altele.
+                          Dacă aveți nevoie de versatilitate, aceasta este motocicleta Husqvarna pentru dvs.Deși împărtășește mult 
+                          ADN cu modelele KTM de dimensiuni similare, Husqvarna 701 Enduro este o legendă în sine. Sub capotă, 
+                          acesta dispune de un puternic motor cu un singur cilindru în patru timpi de 692,7 cmc, fabricat în Europa, 
+                          care produce 75 de cai putere și 52,4 lb-ft de cuplu maxim.
+                    </p>
+                </div>
+                <div class="button">
+                    <a href="">Afla mai multe -></a>
+                </div>
+            </div>
+            <div class="img">
+                <img src="6.jpeg" alt="">
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="alt_txt">
+            <h1>Evdochimov Serghei</h1>
+            <p>@2023 Toate drepturile sunt rezervate </p>
+        </div>
+    </footer>
+</body>
+</html>
